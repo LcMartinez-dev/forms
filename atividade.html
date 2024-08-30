@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atividade.css">
+</head>
+<body>
+    <form action="">
+      <fieldset>
+        <legend>Cadastro de pessoas:</legend>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" class="part1">
+        </div>
+        <div>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" class="part1">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" class="part1">
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" class="part1">
+        </div>
+        <div>
+            <label for="data">Data de nascimento:</label>
+            <input type="date" name="data" id="data">
+        </div>   
+        <div>
+            <label for="comida">Comida favorita:</label>
+            <ul>
+                <li><input type="checkbox" name="comida" id="comida[]" value="hamburguer">Hambúrguer</li>
+                <li><input type="checkbox" name="comida" id="comida[]" value="pizza">Pizza</li>
+                <li><input type="checkbox" name="comida" id="comida[]" value="sushi">Sushi</li>
+                <li><input type="checkbox" name="comida" id="comida[]" value="cachorro quente">Cachorro Quente</li>
+                <li><input type="checkbox" name="comida" id="comida[]" value="xis">Xis</li>
+            </ul>
+        </div>
+        <div>
+            <label for="carac">Descreva suas características:</label>
+            <textarea name="carac" id="carac" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="termo">Aceita os termos de cadastro:</label>
+            <ul>
+                <li><input type="radio" name="termo" id="termo" value="sim">Sim</li>
+                <li><input type="radio" name="termo" id="termo" value="nao">Não</li>
+            </ul>
+        </div>
+        <div>
+            <input type="submit" value="Cadastrar">
+        </div>
+      </fieldset>
+    </form>
+    <script src="./atividade.js"></script>
+</body>
+</html>

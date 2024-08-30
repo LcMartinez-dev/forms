@@ -1,0 +1,38 @@
+*{
+    font-family: cursive;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+fieldset{
+    background-color: cornflowerblue;
+}
+legend{
+    text-align: center;
+    font-family: cursive;
+}
+#nome{
+    margin-left: 62px;
+}
+#email{
+    margin-left: 58px;  
+    he
+}
+#senha{
+    margin-left: 57px;  
+}
+.part1{
+    border-radius: 10px;
+}
+div{
+    margin-top: 10px;
+}
+ul{
+    margin-left: 50px;
+  
+}
+form div ul li input{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
